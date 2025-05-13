@@ -1,0 +1,61 @@
+body{
+    background: black;
+}
+figcaption{
+    color:white;
+    font-size: 20px;
+}
+
+.sketches{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0px; 
+    max-width: 1300px; 
+    margin: 0 auto; 
+}
+.sketches img{
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+p{
+    color:white;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color:white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.centered{
+    text-align:center;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-size: 34px;
+}
+h3{
+    text-align: center;
+    color:white;
+    font-size: 27px;
+}
+.primary{
+    width:50%;
+    height: auto;
+}
+
